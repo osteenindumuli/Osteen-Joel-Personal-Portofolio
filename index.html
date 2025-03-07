@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Osteen Joel Indumuli's Website</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://kit.fontawesome.com/972dea01b5.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="header">
+         
+         <div class="container">
+            <nav>
+                <p class="logo">Personal Portofolio</p>
+                
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#portofolio">Portofolio</a></li>
+                    <li><a href="#contact">Contact </a></li>
+                    <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+                </ul>
+                
+                <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+    
+             </nav>
+             
+         </div>
+
+         <div class="header-content">
+            <div class="header-text">
+                <p>Web Developer and Data Analyst</p>
+                <h1>Hi, I'm <span>Osteen Joel</span> From Kenya</h1>
+             </div>
+             <img src="images/img-my-pic.jpg" class="My-Pic">
+    
+         </div>
+         
+
+    </div>
+    
+    <!-- About Page -->
+
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="images/img-my-pic.jpg" class="profile">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p>Hello! I'm Osteen Joel Indumuli, a passionate and ambitious Information Science
+                        student at the University of Nairobi,Kenya.
+                        <br>
+                        I have a Keen intrest in Web Development and Data Analysis roles.
+                        <br>
+                        <br>
+                        My goal is to develop innovative web-based software solutions that enable organizations to market their data as a saleable product, efficiently store their information, and process it into meaningful insights.
+                         By transforming raw data into strategic assets, I aim to help businesses achieve their profit-driven targets through data-driven decision-making and optimized solutions.
+                    </p>
+                    <br>
+                    <!-- <a href="images/Osteen Joel Indumuli.CV.pdf" download="Osteen Joel Indumuli.CV.pdf" class="about-btn">Download My CV</a> -->
+
+
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>Web Developer</span> <br>Able to create Web App Interfaces</li>
+                            <li><span>Data Analytics</span><br>Analysing raw data into useful information</li>
+                            <li><span>Corporate Librarian</span><br>Management of Library Operations</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <li><span>2024-Current</span> <br>Back-end Developer for Zeraki</li>
+                            <li><span>2021-2023</span><br>Front-end Developer for Yashio Kenya</li>
+                            <li><span>2020-2021</span><br>Internship at Jumia</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>2022-Current</span> <br>Bachelor of Information Science</li>
+                            <li><span>2018-2021</span><br>Kenya Certificate of Secondary Education - B- (2.75GPA)</li>
+                            <li><span>2008-2017</span><br>Kenya Certificate of Secondary Education - 305 marks</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- services -->
+     <div class="services" id="services">
+        <div class="container">
+            <h1 class="sub-title">My Services</h1>
+            <div class="services-list">
+                <div>
+
+                    <i class="fa-solid fa-code"></i>
+                    <h2>Web Development</h2>
+                    <p>Proficient in HTML,CSS,JavaScript,PHP,MySQL,Vue.js,Laravel</p>
+                    <a href="#" class="service-btn">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-magnifying-glass-chart"></i>
+                    <h2>Data Analyst</h2>
+                    <p>Proficient in Python,SQL,MS Excel,Power BI</p>
+                    <a href="#" class="service-btn">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-book"></i>
+                    <h2>Corporate Librarian</h2>
+                    <p>Proficient in library operations such as Knowlwdge organization and management,
+                        catalouging principles,archival retrieval and management</p>
+                    <a href="#" class="service-btn">Learn more</a>
+                </div>
+            </div>
+        </div>
+     </div>
+
+     <!-- Portofolio -->
+
+     <div id="portofolio">
+        <div class="container">
+            <h1 class="sub-title">My Work</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="images/work-1.1.jpg">
+                    <div class="layer">
+                        <h3>Web Design & Development</h3>
+                        <p>Able to create sclable and responsive Front-end and Back-end websites.</p>
+                        <i class="fa-solid fa-square-arrow-up-right"></i>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/data-2.jpg">
+                    <div class="layer">
+                        <h3>Data Analytics</h3>
+                        <p>Able to perform Exploratory Data Analysis, Data Cleaning,Processing,Presentation and Security.</p>
+                        <i class="fa-solid fa-square-arrow-up-right"></i>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/library-11.jpg">
+                    <div class="layer">
+                        <h3>Corporate Librarian</h3>
+                        <p>Able to perform Publishing and Book Trade,Information Retrieval and Analysis, Information Conservation and Preservation
+                            Archival Management and Organization as well as Statisitics and Informetrics.
+                        </p>
+                        <i class="fa-solid fa-square-arrow-up-right"></i>
+                    </div>
+                </div>
+            </div>
+
+            <a href="#" class="btn">See More</a>
+
+        </div>
+     </div>
+
+     <!-- contact -->
+      <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact Me</h1>
+                    <p><i class="fa-solid fa-paper-plane"></i> osteenstark48@gmail.com</p>
+                    <p><i class="fa-solid fa-phone"></i> +254745394683</p>
+                    <div class="social-icons">
+                        <a href="https://gmail.com"><i class="fa-solid fa-envelopes-bulk"></i></a>
+                        <a href="https://github.com/osteenindumuli"><i class="fa-brands fa-github"></i></a>
+                        <a href="https://linkedin.com/in/osteen-joel-indumuli-820b842a2 "><i class="fa-brands fa-linkedin"></i></a>
+                    </div>
+                    <a href="images/Osteen Joel Indumuli.CV.pdf"  download="" class="btn btn2">Download my Resume</a>
+                </div>
+                <div class="contact-right">
+
+                    <form name="submit-to-google-sheet">
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="email" name="Email" placeholder="Your Email" required>
+                        <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                        <button type="submit" class="btn btn2">Submit</button>
+                    </form>
+
+                    <span id="msg"></span>
+
+
+                </div>
+            </div>
+        </div>
+
+        <div class="copyright">
+            <p>Copyright &#169; 2025. Made with <i class="fa-solid fa-heart"></i> by Osteen Joel | Data Privacy and Policy | All right Reserved</p>
+        </div>
+        
+      </div>
+
+     
+
+    
+
+    <script src="script.js"></script>
+
+
+    <script>
+        const scriptURL = 'https://script.google.com/macros/s/AKfycbw7oPd6GIlLQb5uUkRphnha2oPN3Pdjy1ZKI7kBymDa-QxWD9uavVNyV6wPlwNpSq2O/exec'
+        const form = document.forms['submit-to-google-sheet']
+        const msg = document.getElementById('msg')
+      
+        form.addEventListener('submit', e => {
+          e.preventDefault()
+          fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+            .then(response =>  {
+                msg.innerHTML = "Message Sent Successfully"
+                setTimeout(function(){
+                    msg.innerHTML = ""
+                },5000) 
+                form.reset()
+            })
+            .catch(error => console.error('Error!', error.message))
+        })
+      </script>
+
+</body>
+</html>
